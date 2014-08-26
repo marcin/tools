@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>Zepsuta strzalka gora</name>
+    <name>Zepsuta strzalka gora</name> 
     <identifier>private.strzalka1</identifier>
     <!-- lewy command + strzelka w lewo => strzalka gora -->
-    <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_UP</autogen>
-    <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
   </item>
 
 </root>
-
