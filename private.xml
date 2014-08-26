@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Zepsuta strzalka gora</name>
+    <identifier>private.strzalka1</identifier>
+    <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::CURSOR_UP</autogen>
+  </item>
+
+</root>
