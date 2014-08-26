@@ -3,7 +3,10 @@
   <item>
     <name>Zepsuta strzalka gora</name>
     <identifier>private.strzalka1</identifier>
-    <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::CURSOR_UP</autogen>
+    <!-- lewy command + strzelka w lewo => strzalka gora -->
+    <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_DOWN</autogen>
   </item>
 
 </root>
+
